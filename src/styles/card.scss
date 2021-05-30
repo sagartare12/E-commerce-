@@ -1,0 +1,101 @@
+
+.grid{
+  display: flex;
+justify-content : center;
+flex-wrap : wrap;
+}
+.flex{
+  display: flex;
+}
+@media screen and (max-width:480px) {
+  .flex{
+    display: flex;;
+    flex-direction: column;
+  }
+  
+}
+.weight{
+  font-weight: bold;
+}
+.center{
+  text-align: center;
+}
+.ce{
+  
+ text-align: center;
+  margin-bottom: 10px;
+  button{
+    margin-right: 10px;
+    background-color: rgb(219, 154, 186);
+    border-radius: 10%;
+  }
+  
+
+  
+}
+.font{
+  font-size: medium;
+}
+.container{
+ width: 300px;
+height: 100%;
+margin: 15px  15px 40px;
+text-align: center;
+ justify-content : center;
+ border-radius: 40px;
+//   .img-wrapper {
+//     width: 100%;
+//     height: 420px;
+//     overflow: hidden;
+//     .img {
+//       object-fit: cover;
+//       height: 100%;
+//       width: 100%;
+//     }
+// }
+}
+
+
+
+.card {
+    width: 300px;
+height: 100%;
+margin: 0 15px 40px;
+
+  .img-wrapper {
+    width: 100%;
+    border-radius: 40px;
+    height: 420px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+
+    img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  .flex{
+    display:inline-flex;
+  }
+
+  h1 {
+    margin: 10px 0;
+    font-size: 21px;
+  }
+
+  p {
+    margin: 0;
+  }
+}
+
+.radioInputWrapper{
+  display: flex;
+justify-content: center;
+margin: 20px 0;
+
+    div{
+        margin: 0 15px;
+    }
+}
